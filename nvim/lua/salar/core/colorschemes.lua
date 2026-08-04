@@ -93,13 +93,13 @@ M.items = {
 			"github_light_default",
 			"github_light_high_contrast",
 		},
-	},
+	},--[[
 	{
 		repo = "nyoom-engineering/oxocarbon.nvim",
 		schemes = { "oxocarbon" },
 		build = false,
-		rocks = false,
-	},
+		rocks = true,
+	},]]--
 	{
 		repo = "RRethy/base16-nvim",
 		schemes = { "base16-default-dark", "base16-default-light" },

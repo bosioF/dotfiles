@@ -27,11 +27,17 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- file explorer
 keymap.set("n", "<C-n>", "<cmd>Ex<CR>", { desc = "Open file explorer" })
 
-vim.keymap.set("n", "<leader>ci", "<cmd>Telescope lsp_incoming_calls<CR>")
-vim.keymap.set("n", "<leader>co", "<cmd>Telescope lsp_outgoing_calls<CR>")
-vim.keymap.set("n", "<leader>ch", "<cmd>Telescope lsp_implementations<CR>")
-vim.keymap.set("n", "<leader>cu", "<cmd>Telescope lsp_references<CR>")
+keymap.set("n", "<leader>ci", "<cmd>Telescope lsp_incoming_calls<CR>")
+keymap.set("n", "<leader>co", "<cmd>Telescope lsp_outgoing_calls<CR>")
+keymap.set("n", "<leader>ch", "<cmd>Telescope lsp_implementations<CR>")
+keymap.set("n", "<leader>cu", "<cmd>Telescope lsp_references<CR>")
+
+-- codesnap
+keymap.set("v", "<leader>cc", ":'<,'>CodeSnap<CR>", { desc = "Save code snapshot to clipboard" })
+keymap.set("v", "<leader>cs", ":'<,'>CodeSnapSave /home/bosio/Pictures/nvim/snapshot.png<CR>", { desc = "Salva snapshot" })
 
 keymap.set("n", "<leader>ts", "<cmd>Theme<CR>", { desc = "Select theme" })
 keymap.set("n", "<leader>tn", "<cmd>ThemeNext<CR>", { desc = "Next theme" })
 keymap.set("n", "<leader>tp", "<cmd>ThemePrev<CR>", { desc = "Previous theme" })
+
+

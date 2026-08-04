@@ -50,6 +50,8 @@ Leader is `<Space>`.
 
 | Key | Action |
 | --- | --- |
+| `<leader>cc` | Codesnap copy into clipboard |
+| `<leader>cs` | Codesnap save to file (edit path in lua/salar/plugins/codesnap.nvim) |
 | `<leader>ff` | Find files |
 | `<leader>fw` | Live grep |
 | `<leader>fc` | Search word under cursor |
