@@ -1,6 +1,8 @@
 # ==========================================
 # ALIAS GENERALI E UTILITIES
 # ==========================================
+alias vi='nvim'
+alias frida-start-root='adb shell "su root /data/local/tmp/frida-server &"'
 alias sl='ls'
 alias cl='clear'
 alias src='source ~/.config/fish/config.fish'
@@ -15,10 +17,12 @@ alias gw='gwenview'
 alias stest='speedtest-cli'
 alias batt='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percentage'
 alias ptime='echo (date +%H:%M)'
-
 alias tup='sudo systemctl start tailscaled && sudo tailscale up'
 
 # Tools & AppImages
+alias hermesd='$HOME/Documents/tools/hermes-decomp/target/release/hermes-decomp'
+alias buildapk='$HOME/Documents/tools/build_align_sign_verify.fish'
+alias blutter='py /home/bosio/Documents/tools/blutter/blutter.py'
 alias john='$HOME/Documents/tools/john-jumbo/run/john'
 alias jadx='$HOME/Documents/tools/jadx-1.5.5/bin/jadx-gui'
 alias studio='$HOME/Documents/tools/android-studio/bin/studio'
@@ -28,5 +32,5 @@ alias bonsai='$HOME/Documents/tools/cli-tools/bonsai.sh/bonsai.sh -l -t 2'
 alias wp='$HOME/Pictures/wllpprs/wallpaper.sh'
 alias urlDec='python3 $HOME/Documents/tools/cli-tools/pyURLDecode/main.py'
 alias clc='copylast'
-alias clok='$HOME/Documents/tools/cli-tools/tty-clock/tty-clock -sbc'
+alias clok='$HOME/Documents/tools/cli-tools/tty-clock/tty-clock -sbc -C 5'
 alias hex='python3 $HOME/Documents/tools/cli-tools/hex/main.py'
