@@ -2,10 +2,16 @@ font-family = JetBrainsMono Nerd Font
 font-size = 13
 
 background-opacity = 0.95
-background-blur-radius = 20
+background-blur = 20
 
 window-padding-x = 12
 window-padding-y = 12
 window-decoration = false
 
-theme = Ayu
+theme = Django Reborn Again
+
+shell-integration-features = ssh-env,ssh-terminfo,no-cursor
+
+
+#cursor-style = block
+#custom-shader = ~/.config/ghostty/shaders/cursor_tail.glsl

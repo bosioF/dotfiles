@@ -1,6 +1,5 @@
-# ==========================================
-# ALIAS GENERALI E UTILITIES
-# ==========================================
+alias psize='du -h --max-depth 0'
+alias ":q"='exit'
 alias vi='nvim'
 alias frida-start-root='adb shell "su root /data/local/tmp/frida-server &"'
 alias sl='ls'
@@ -19,7 +18,7 @@ alias batt='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep percen
 alias ptime='echo (date +%H:%M)'
 alias tup='sudo systemctl start tailscaled && sudo tailscale up'
 
-# Tools & AppImages
+alias msfconsole='/opt/metasploit-framework/bin/msfconsole'
 alias hermesd='$HOME/Documents/tools/hermes-decomp/target/release/hermes-decomp'
 alias buildapk='$HOME/Documents/tools/build_align_sign_verify.fish'
 alias blutter='py /home/bosio/Documents/tools/blutter/blutter.py'
@@ -34,3 +33,7 @@ alias urlDec='python3 $HOME/Documents/tools/cli-tools/pyURLDecode/main.py'
 alias clc='copylast'
 alias clok='$HOME/Documents/tools/cli-tools/tty-clock/tty-clock -sbc -C 5'
 alias hex='python3 $HOME/Documents/tools/cli-tools/hex/main.py'
+alias dnsrecon='uv run --project $HOME/Documents/tools/dnsrecon/dnsrecon dnsrecon'
+alias nikto='$HOME/Documents/tools/nikto/program/nikto.pl'
+alias final='py $HOME/Documents/tools/FinalRecon/finalrecon.py'
+alias tg='$HOME/Documents/tools/Telegram/Telegram'
